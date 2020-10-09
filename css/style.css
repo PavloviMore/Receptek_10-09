@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: georgia;
+    background: url('../pics/bg-body.png') #fff;
+    background: lightgray;
+}
+
+h1{
+    font-family: "Lobster",sans-serif;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    font-size: 4rem;
+    color: green;
+    border-top: 2px dashed rgba(0, 0, 0, 0.3);
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page{
+    display:inline-block
+}
